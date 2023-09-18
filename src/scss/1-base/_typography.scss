@@ -1,0 +1,29 @@
+@use './variables' as v;
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: v.$font-bold;
+  line-height: 2.1875rem;
+  letter-spacing: -0.33;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: v.$font-bold;
+  line-height: 1.8125rem;
+  letter-spacing: -0.25;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: v.$font-bold;
+  line-height: 1,625rem;
+  letter-spacing: -0.25;
+}
+
+h4 {
+  font-size: 0.875rem;
+  font-weight: v.$font-bold;
+  line-height: 1.25rem;
+  letter-spacing: -0.2;
+}
