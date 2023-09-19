@@ -1,0 +1,13 @@
+@use '../1-base/variables' as v;
+
+.tag {
+  background-color: v.$light-grey-color;
+  border-radius: v.$radius-lg;
+  padding: 0.3rem 1rem;
+  
+  &__name {
+    color: v.$secondary-color;
+    font-weight: v.$font-semibold;
+    font-size: 0.8125rem;
+  }
+}
