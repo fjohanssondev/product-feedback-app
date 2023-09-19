@@ -1,11 +1,9 @@
 import { publicProcedure, router } from "./trpc";
+import { prisma } from "@lib/prisma";
 
 export const appRouter = router({
-  getTodos: publicProcedure.query(async () => {
-    return [
-      { id: 1, text: "Buy milk", done: false },
-      { id: 2, text: "Buy eggs", done: false },
-    ];
+  getFeedback: publicProcedure.query(async () => {
+    return await prisma.feedback.findMany();
   })
 });
 
