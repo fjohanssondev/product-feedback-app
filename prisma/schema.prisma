@@ -70,7 +70,7 @@ model Feedback {
   id          String         @id @default(cuid())
   title       String
   description String
-  status      FeedbackStatus
+  status      FeedbackStatus @default(PLANNED)
   tags        Tag[]
   comments    Comment[]
   votes       Vote[]
