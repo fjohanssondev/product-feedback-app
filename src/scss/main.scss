@@ -1,4 +1,9 @@
 @use './1-base/variables';
 @use './1-base/reset';
+@use './1-base/globals';
 @use './1-base/mixins';
 @use './1-base/typography';
+
+@use './2-components/button';
+@use './2-components/suggestion';
+@use './2-components/sidebar';

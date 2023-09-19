@@ -1,0 +1,32 @@
+.page-wrapper {
+  max-width: 90rem;
+  margin-inline: auto;
+  margin-block: 6rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.gap {
+
+  &--sm {
+    gap: 2rem;
+  }
+
+  &--md {
+    gap: 3rem;
+  }
+
+  &--lg {
+    gap: 4rem;
+  }
+}

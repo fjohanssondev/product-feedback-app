@@ -1,0 +1,7 @@
+@use '../1-base/variables' as v;
+
+.suggestion-header {
+  background-color: v.$tertiary-dark-color;
+  padding: 1.2rem 1rem;
+  border-radius: v.$radius-lg;
+}

@@ -1,18 +1,30 @@
 // COLORS
 
 $primary-color: hsl(282, 83%, 52%);
-$secondary-color: hsl(230, 76%, 59%);
-$tertiary-color: hsl(0, 0%, 100%);
-$accent-color: hsl(231, 100%, 97%);
-$dark-bg-color: hsl(231, 33%, 34%);
-$text-color: hsl(224, 20%, 49%);
-$highlight-color: hsl(14, 83%, 74%);
-$link-color: hsl(204, 94%, 68%);
+$primary-hover-color: hsl(282, 90%, 66%);
 
-$bg-color: hsl(230, 60%, 98%);
+$secondary-color: hsl(230, 76%, 59%);
+$secondary-hover-color: hsl(230, 91%, 73%);
+
+$tertiary-color: hsl(231, 33%, 34%);
+$tertiary-hover-color: hsl(231, 26%, 52%);
+
+$tertiary-dark-color: hsl(230, 31%, 31%);
+
+$danger-color: hsl(0, 67%, 53%);
+$danger-hover-color: hsl(0, 69%, 72%);
+
+$blank-color: hsl(0, 0%, 100%);
+
+$lighter-grey-color: hsl(230, 60%, 98%);
 
 // TYPOGRAPHY
 
 $font-base: 400;
 $font-semibold: 600;
 $font-bold: 700;
+
+// RADIUS
+
+$radius-lg: 0.625rem;
+$radius-md: 0.5rem;

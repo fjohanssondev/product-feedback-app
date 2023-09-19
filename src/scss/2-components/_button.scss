@@ -1,0 +1,41 @@
+@use '../1-base/variables' as v;
+
+.btn {
+  border-radius: v.$radius-lg;
+
+  &--primary {
+    background-color: v.$primary-color;
+    color: v.$blank-color;
+
+    &:hover {
+      background-color: v.$primary-hover-color;
+    }
+  }
+
+  &--secondary {
+    background-color: v.$secondary-color;
+    color: v.$blank-color;
+
+    &:hover {
+      background-color: v.$secondary-hover-color;
+    }
+  }
+
+  &--tertiary {
+    background-color: v.$tertiary-color;
+    color: v.$blank-color;
+
+    &:hover {
+      background-color: v.$tertiary-hover-color;
+    }
+  }
+
+  &--danger {
+    background-color: v.$danger-color;
+    color: v.$blank-color;
+
+    &:hover {
+      background-color: v.$danger-hover-color;
+    }
+  }
+}

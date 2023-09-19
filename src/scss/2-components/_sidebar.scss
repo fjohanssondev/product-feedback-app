@@ -1,0 +1,14 @@
+@use '../1-base/variables' as v;
+
+.sidebar {
+
+  &__banner {
+    background-image: url('../../../public/assets/suggestions/desktop/background-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 2rem;
+    color: v.$blank-color;
+    border-radius: v.$radius-lg;
+  }
+}
