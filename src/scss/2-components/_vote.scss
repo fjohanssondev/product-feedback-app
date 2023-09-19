@@ -1,0 +1,17 @@
+@use '../1-base/variables' as v;
+
+.vote {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  background-color: v.$light-grey-color;
+  border-radius: v.$radius-lg;
+  padding: 0.8rem 1rem;
+
+  &__number {
+    font-size: 0.8125rem;
+    font-weight: v.$font-bold;
+    color: v.$tertiary-color;
+  }
+}

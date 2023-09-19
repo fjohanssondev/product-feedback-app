@@ -3,6 +3,8 @@
 .sidebar {
 
   &__banner {
+    display: flex;
+    flex-direction: column;
     background-image: url('../../../public/assets/suggestions/desktop/background-header.png');
     background-repeat: no-repeat;
     background-size: cover;

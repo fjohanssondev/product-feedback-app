@@ -4,4 +4,20 @@
   background-color: v.$tertiary-dark-color;
   padding: 1.2rem 1rem;
   border-radius: v.$radius-lg;
+  margin-bottom: 2rem;
+}
+
+.suggestion {
+  display: flex;
+  background-color: v.$blank-color;
+  border-radius: v.$radius-lg;
+  padding: 2rem;
+
+  &__title {
+    color: v.$tertiary-color;
+  }
+
+  &__description {
+    color: v.$tertiary-light-color;
+  }
 }
