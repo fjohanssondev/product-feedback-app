@@ -102,5 +102,5 @@ model Vote {
   feedbackId String
   author     User     @relation(fields: [authorId], references: [id])
   authorId   String
-  value      Int
+  isVoted    Boolean  @default(false)
 }
